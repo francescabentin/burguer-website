@@ -1,0 +1,24 @@
+Descripción del proyecto
+Construir una página web con una one single page  para un restaurante de hamburguesas utilizando HTML5, CSS3 y JavaScript. La página debe contener al menos las siguientes secciones:
+
+Encabezado con el logotipo y menú de navegación
+
+Sección de presentación con imagen y texto
+
+Sección de menú con una lista de hamburguesas y sus precios (mínimo 4, máximo 6)
+
+Pie de página con enlaces a redes sociales
+
+Requisitos técnicos
+La página web debe ser completamente responsive y adaptarse a diferentes tamaños de pantalla
+
+Debe utilizar Flexbox o CSS Grid para el diseño
+
+Debe utilizar al menos una animación o transición con CSS
+
+El css debe escribirse en BEM
+
+El menú de navegación debe ser funcional (apertura y cierre)
+
+Entrega
+El candidato deberá entregar el código fuente completo de la página web. También deberá explicar muy brevemente el proceso de construcción, las herramientas y técnicas utilizadas y los problemas que encontró durante el desarrollo.
