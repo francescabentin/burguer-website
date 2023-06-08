@@ -5,33 +5,57 @@
     background-size: cover;
     background-position: 28% center;
 
+
     &__logotypes {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 40px;
             background-color: rgba(255, 255, 255, 1);
             position: fixed;
             width: 100%;
-        
+        @include desktop {
+                height: 164px;
+            }
         &__icon {
             width: 25px;
             height: 30px;
+            @include desktop {
+                    width: 45px;
+                    height: 50px;
+                }
         }
 
         &__logo {
             width: 150px;
             height: 100px;
+            @include desktop {
+                    width: 170px;
+                    height: 120px;
+                }
         }
-}
+                                }
 
-&__title {
-    padding-top: 500px;
-    margin: 0 auto;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding-left: 10px;
+                                &__title {
+        padding-top: 450px;
+            margin: 0 auto;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding-left: 10px;
+@include tablet {
+        width: 60%;
+        margin: 0;
+        font-size: 1.9rem;
+        letter-spacing: 2px;
+        padding-top: 430px;
+
+    }
+
+    @include desktop {
+        font-size: 2rem;
+        padding-top: 480px;
+    }
     }
 
     &__menu {

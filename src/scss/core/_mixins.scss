@@ -10,3 +10,10 @@
         @content;
     }
 }
+@mixin hideHrOnTablet {
+    @media screen and (min-width: 768px) {
+        hr {
+            display: none;
+        }
+    }
+}
