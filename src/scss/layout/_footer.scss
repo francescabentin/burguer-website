@@ -1,6 +1,8 @@
 .footer {
     background-color: black;
     min-width: 320px;
+    padding-top: 50px;
+        text-align: center;
 
     & a {
         text-decoration: none;
@@ -21,7 +23,7 @@
         border: 1px solid rgb(245, 241, 241);
     }
 
-    &__flex {
+                                                                                                                                &__nav {
         color: $color-white;
         display: flex;
         flex-direction: column;
@@ -34,10 +36,6 @@
         line-height: 1.9;
         padding: 20px 0px;
 
-        &__logo img {
-            width: 50px;
-        }
-
         @include tablet {
             flex-direction: row;
             justify-content: center;
@@ -46,22 +44,15 @@
             text-align: left;
             padding: 20px 0px;
 
-            &__social {
-                order: -2;
-            }
-
-            &__logo img {
-                height: 50px;
-                width: 70px;
-            }
         }
     }
 
-    &__img {
-        width: 20px;
-    }
 
     &__copyright {
         font-size: 0.5rem;
     }
+}
+.footer__logo__img {
+    width: 150px;
+
 }

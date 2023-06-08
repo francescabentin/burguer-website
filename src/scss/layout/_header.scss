@@ -2,14 +2,15 @@
     height: 100vh;
     min-width: 320px;
     background-image: url('../images/hola.jpg');
-        background-size: cover;
+    background-size: cover;
+    background-position: 28% center;
 
     &__logotypes {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px;
-        background-color: rgba(255, 255, 255, 0.8);
+        padding: 0 20px;
+            background-color: rgba(255, 255, 255, 1);
             position: fixed;
             width: 100%;
         
@@ -25,11 +26,12 @@
 }
 
 &__title {
-    padding-top: 120%;
+    padding-top: 500px;
     margin: 0 auto;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+    padding-left: 10px;
     }
 
     &__menu {
