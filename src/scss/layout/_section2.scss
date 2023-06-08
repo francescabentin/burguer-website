@@ -1,8 +1,37 @@
 .section2 {
-    height: 500px;
-
-    &__h1 {
-        font-size: 5rem;
+    background-color: black;
+        min-width: 320px;
+    
+        &__menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            justify-items: center;
+            background-color: transparent;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+    
+    
+            &__item {
+    
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color: white;
+                padding: 10px;
+                box-shadow: 0 0 40px grey;
+                &__image {
+                        width: 150px;
+                        height: auto;
+                        margin-bottom: 10px;
+                    }
+                
+                    &__title {
+                        padding-top: 10px;
+                        font-size: 1rem;
+                        margin-bottom: 10px;
+                    }
+                }
     }
 
 }

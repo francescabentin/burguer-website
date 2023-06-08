@@ -1,0 +1,66 @@
+.footer {
+    background-color: black;
+
+    & a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            color: white;
+        }
+
+        &:active {
+            color: black;
+        }
+    }
+
+    &__hr {
+        width: 20px;
+        margin: 15px auto;
+        border: 1px solid rgb(245, 241, 241);
+    }
+
+    &__flex {
+        color: $color-white;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $font-general;
+        font-size: 1rem;
+        line-height: 1.9;
+        padding: 20px 0px;
+
+        &__logo img {
+            width: 50px;
+        }
+
+        @include tablet {
+            flex-direction: row;
+            justify-content: center;
+            flex-flow: row-reverse;
+            gap: 80px;
+            text-align: left;
+            padding: 20px 0px;
+
+            &__social {
+                order: -2;
+            }
+
+            &__logo img {
+                height: 50px;
+                width: 70px;
+            }
+        }
+    }
+
+    &__img {
+        width: 20px;
+    }
+
+    &__copyright {
+        font-size: 0.5rem;
+    }
+}

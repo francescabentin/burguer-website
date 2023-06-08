@@ -1,6 +1,7 @@
 .section1 {
+    background-color: black;
     height: 100vh;
-    background-image: url('.assets/images/background.png');
+    background-image: url('../images/download1.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     min-width: 320px;
@@ -9,6 +10,7 @@
     flex-direction: column;
     gap: 15%;
     align-items: center;
+    
 
     &__title {
         padding-top: 50%;
