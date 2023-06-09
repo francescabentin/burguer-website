@@ -1,6 +1,6 @@
 "use strict";
 
-const wholeMenu = document.querySelector('.js-menu');
+const wholeMenu = document.querySelector('.js-nav');
 const menuIcon = document.querySelector('.js-icon');
 const menuItems = document.querySelectorAll('.header__menu__nav__ul li a');
 const closeIcon = document.querySelector(".header__menu__nav__ul__li__close");

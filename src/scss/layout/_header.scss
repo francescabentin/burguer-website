@@ -3,73 +3,64 @@
     min-width: 320px;
     background-image: url('../images/hola.jpg');
     background-size: cover;
-    background-position: 28% center;
+    position: relative;
 
-    &__logotypes {
+    &__menu {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 40px;
         background-color: rgba(255, 255, 255, 1);
-            position: fixed;
-            width: 100%;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+
+
         @include desktop {
-                height: 164px;
-            }
+            display: flex;
+            flex-direction: row;
+            justify-content: baseline;
+        }
+
         &__icon {
             width: 25px;
             height: 30px;
+
             @include desktop {
-                width: 45px;
-                    height: 50px;
-                }
+                display: none;
+            }
         }
 
         &__logo {
             width: 150px;
             height: 100px;
+
             @include desktop {
-                    width: 170px;
-                    height: 120px;
-                }
+                width: 170px;
+                height: 120px;
+            }
         }
-                                }
 
-                                &__title {
-        position: relative;
-            top: 80%;
-            margin: 0 auto;
-            color: white;
-            font-size: 1.5rem;
-            font-weight: bold;
-            padding-left: 10px;
-@include tablet {
-        width: 70%;
-        margin: 0;
-        font-size: 2.5rem;
-        letter-spacing: 2px;
-        top: 80%;
-
-    }
-
-    @include desktop {
-        font-size: 3.3rem;
-            top: 70%;
-    }
-    }
-
-    &__menu {
         &__nav {
-            position: fixed;
-            top: 0;
+            position: absolute;
+            top: 100%;
             left: 0;
-            width: 100vw;
-            height: 100vh;
-            background-color: red;
+            width: 100%;
+            background-color: black;
             opacity: 0;
             transform: translateX(-100%);
             transition: opacity 0.9s ease, transform 0.9s ease;
             z-index: 9999;
+
+            @include desktop {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                opacity: 1;
+                transform: none;
+                background-color: rgba(255, 0, 0, 0.5);
+            }
 
             &__ul {
                 display: flex;
@@ -77,10 +68,16 @@
                 gap: 50px;
                 align-items: center;
                 padding: 50% 0;
-                
-                    @include desktop {
-                        padding: 10% 0;
-                    }
+
+                @include desktop {
+                    height: 3.5rem;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 50px;
+                    list-style: none;
+                    color: black;
+                    padding: 0;
+                }
 
                 &__li a {
                     text-decoration: none;
@@ -88,27 +85,45 @@
                     color: white;
                     font-weight: bold;
                     font-size: 1.8rem;
-                    
-                        @include tablet {
-                            font-size: 3rem;
-                        }
+
+                    @include tablet {
+                        font-size: 3rem;
+                    }
+
+                    @include desktop {
+                        font-size: 1rem;
+                    }
                 }
 
                 &__li__close {
                     padding-top: 10px;
                     font-weight: bold;
                     font-size: 2rem;
-                    
-                        @include tablet {
-                            font-size: 3rem;
-                        }
+
+                    @include tablet {
+                        font-size: 3rem;
+                    }
+
+                    @include desktop {
+                        display: none;
+                    }
                 }
             }
         }
+    }
+
+    &__title {
+        position: absolute;
+        bottom: 0;
+        margin: 0 auto;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-left: 10px;
     }
 }
 
 .show {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
