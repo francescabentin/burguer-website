@@ -5,13 +5,12 @@
     background-size: cover;
     background-position: 28% center;
 
-
     &__logotypes {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0 40px;
-            background-color: rgba(255, 255, 255, 1);
+        background-color: rgba(255, 255, 255, 1);
             position: fixed;
             width: 100%;
         @include desktop {
@@ -21,7 +20,7 @@
             width: 25px;
             height: 30px;
             @include desktop {
-                    width: 45px;
+                width: 45px;
                     height: 50px;
                 }
         }
@@ -37,24 +36,25 @@
                                 }
 
                                 &__title {
-        padding-top: 450px;
+        position: relative;
+            top: 80%;
             margin: 0 auto;
             color: white;
             font-size: 1.5rem;
             font-weight: bold;
             padding-left: 10px;
 @include tablet {
-        width: 60%;
+        width: 70%;
         margin: 0;
-        font-size: 1.9rem;
+        font-size: 2.5rem;
         letter-spacing: 2px;
-        padding-top: 430px;
+        top: 80%;
 
     }
 
     @include desktop {
-        font-size: 2rem;
-        padding-top: 480px;
+        font-size: 3.3rem;
+            top: 80%;
     }
     }
 
@@ -65,7 +65,7 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            background-color: grey;
+            background-color: red;
             opacity: 0;
             transform: translateX(-100%);
             transition: opacity 0.9s ease, transform 0.9s ease;
@@ -74,21 +74,34 @@
             &__ul {
                 display: flex;
                 flex-direction: column;
-                gap: 20px;
+                gap: 50px;
                 align-items: center;
-                padding: 80px 0;
+                padding: 50% 0;
+                
+                    @include desktop {
+                        padding: 10% 0;
+                    }
 
                 &__li a {
                     text-decoration: none;
                     list-style: none;
                     color: white;
                     font-weight: bold;
+                    font-size: 1.8rem;
+                    
+                        @include tablet {
+                            font-size: 3rem;
+                        }
                 }
 
                 &__li__close {
                     padding-top: 10px;
                     font-weight: bold;
-                    font-size: 1rem;
+                    font-size: 2rem;
+                    
+                        @include tablet {
+                            font-size: 3rem;
+                        }
                 }
             }
         }
