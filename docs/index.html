@@ -5,16 +5,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Google Fonts-->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./assets/css/main.css" />
   <link rel="icon" href="./assets/images/logo.png" /> <!-- Favicon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__logotypes">
             <img class="header__logotypes__icon js-icon" src="./assets/images/menu.png" alt="menu icon" title="Menu Icon"></img>
             <img class="header__logotypes__logo" src="./assets/images/logo.png" alt="logo" title="Logo Papachos">
@@ -23,10 +22,10 @@
         <div class= "header__menu">
             <nav class="header__menu__nav js-menu">
                 <ul class="header__menu__nav__ul">
-                    <li class="header__menu__nav__ul__li"> <a href="#">Inicio </a></li>
-                     <li class="header__menu__nav__ul__li"> <a href="#">Quienes Somos </a></li>
-                    <li class="header__menu__nav__ul__li"> <a href="#">Las Hamburguesas</a></li>
-                    <li class="header__menu__nav__ul__li"> <a href="#">Contáctanos</a></li>
+                    <li class="header__menu__nav__ul__li"> <a href="#header">Inicio </a></li>
+                     <li class="header__menu__nav__ul__li"> <a href="#about">Quienes Somos </a></li>
+                    <li class="header__menu__nav__ul__li"> <a href="#menu">Las Hamburguesas</a></li>
+                    <li class="header__menu__nav__ul__li"> <a href="#footer">Contáctanos</a></li>
                     <li class="header__menu__nav__ul__li__close">X</li>
                 </ul>
             </nav>
@@ -34,13 +33,13 @@
     </header>          <!-- Encabezado y logotipo con menu de navegacion -->
     <main>
       
-      <section class="section1" id="section__one">
-          <div>
-          <h1 class="section1__title">Más de 10 años dominando los elementos esenciales de la auténtica experiencia
-              gastronómica americana. </h1>
-              </div>
+      <section class="section1" id="about">
+          
+          <h1 class="section1__title">NUESTRA HISTORIA</h1>
+          <p class="section1__text">Papachos es mucho más que un restaurante de hamburguesas; es el resultado de una pasión desbordante por la comida sabrosa y reconfortante. Nuestra historia se teje con dedicación y amor, desde nuestros humildes comienzos como un modesto puesto de hamburguesas en un mercado local, hasta convertirnos en un destino imperdible en la ciudad. Con una misión clara en mente, nos esforzamos por ofrecer a nuestros clientes las mejores hamburguesas, cuidadosamente elaboradas con ingredientes frescos y de la más alta calidad. </p>
+          <img class="section1__img" src="./assets/images/slider1.png">
       </section>      <!-- Presentacion con imagen (ponerle un slider o efecto animacion Extra) y texto -->
-      <section class="section2" id="section__two">
+      <section class="section2" id="menu">
             <h1 class="section2__title">MENU</h1>
           <main class="section2__menu">
           <div class="section2__menu__item">
@@ -108,7 +107,7 @@
           </main>
       </section>      <!-- Menu con 6 elementos maximo minimo 4 de hamburguesas con sus precios -->
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
 
             <div class="footer__logo">
             <img class="footer__logo__img" src="./assets/images/logo.png" alt="image of papacho logo">
@@ -118,13 +117,16 @@
 
         <nav class="footer__nav">
             <ul class="footer__nav__pages">
-                <a title="redirect to Home" href="">
+                <a title="redirect to Home" href="#header">
                     <li>Inicio</li>
                 </a>
-                <a title="redirect to Home" href="">
+                <a title="redirect to Home" href="#about">
+                    <li>Quines Somos</li>
+                </a>
+                <a title="redirect to Home" href="#menu">
                     <li>Las Hamburguesas</li>
                 </a>
-                <a title="redirect to Home" href="">
+                <a title="redirect to Home" href="#footer">
                     <li>Contacto</li>
                 </a>
             </ul>
