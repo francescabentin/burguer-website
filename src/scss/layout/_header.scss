@@ -3,6 +3,7 @@
     min-width: 320px;
     background-image: url('../images/hola.jpg');
     background-size: cover;
+    background-position: 20%;
     position: relative;
 
     &__menu {
@@ -99,6 +100,7 @@
                     padding-top: 10px;
                     font-weight: bold;
                     font-size: 2rem;
+                    color: white;
 
                     @include tablet {
                         font-size: 3rem;
@@ -114,12 +116,15 @@
 
     &__title {
         position: absolute;
-        bottom: 0;
+        bottom: 10px;
         margin: 0 auto;
         color: white;
         font-size: 1.5rem;
         font-weight: bold;
         padding-left: 10px;
+        @include desktop{
+            font-size: 2.5rem;
+        }
     }
 }
 

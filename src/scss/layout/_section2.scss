@@ -1,32 +1,20 @@
 .section2 {
-    background-color: black;
+ 
+    background-color: #8c8181;
     min-width: 320px;
     text-align: center;
     height: fit-content;
-    padding: 10px;
-
-    &__title {
-        padding: 40px 0;
-        color: white;
-        font-size: 1.5rem;
-        @include desktop {
-            font-size: 3rem;
-            text-transform: uppercase;
-            letter-spacing: 10px;
-        }
-    }
+ 
 
     &__menu {
-        background-image: url("../images/background-menu.jpg");
-        border-top: 5px solid white; 
-        border-bottom: 5px solid white;
-        border-radius: 10px;
+        padding: 20px 0;
+       background-image: url("../images/background-menu.jpg");
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         justify-items: center;
         @include tablet {
             gap: 25px;
-            padding: 10px;
+            padding: 40px 0;
         }
         @include desktop {
             margin-top: 50px;
@@ -106,5 +94,10 @@
                     }
                 }
             }
+        }
+
+        .section2_title{
+            width: 300px;
+            height: 200px;
         }
     

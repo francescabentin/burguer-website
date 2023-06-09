@@ -10,23 +10,33 @@
     align-items: center;
     padding: 150px 0;
 
-    &__title{
+    &__title {
         font-size: 1.8rem;
         color: black;
         padding-top: 50px;
     }
 
-    &__text{
+    &__text {
         font-size: 1rem;
         color: black;
         align-items: center;
         width: 70%;
     }
 
-    &__img {
-      max-width: 100%;
-  height: auto;
-       
+    &__container {
+
+        &__slider {
+            border: 5px solid black;
+            border-radius: 10px;
+            &__img {
+           display: none;
+           max-width: 500px;
+            width: 250px;
+            @include tablet {
+                width: 500px;
+            }
+            }
+        }
     }
 
 
