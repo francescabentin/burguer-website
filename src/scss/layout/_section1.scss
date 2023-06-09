@@ -1,28 +1,33 @@
 .section1 {
+    background-image: url('../images/background-slider.png');
     background-color: white;
-    height: 100vh;
+    text-align: center;
     min-width: 320px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 10%;
+    gap: 40px;
     align-items: center;
-    padding-bottom: 50px;
-    
+    padding: 150px 0;
 
-    &__title {
-        padding-top: 490px;
-        text-align: center;
-        line-height: 25px;
-        font-size: 1rem;
-        font-weight: bolder;
-        margin-bottom: 50px;
-        
-            @include tablet {
-                    font-size: 1.5rem;
-                    width: 50%;
-                    margin: -200px 300px;
+    &__title{
+        font-size: 1.8rem;
+        color: black;
+        padding-top: 50px;
     }
 
-}
+    &__text{
+        font-size: 1rem;
+        color: black;
+        align-items: center;
+        width: 70%;
+    }
+
+    &__img {
+      max-width: 100%;
+  height: auto;
+       
+    }
+
+
 }
