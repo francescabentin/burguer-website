@@ -1,103 +1,106 @@
 .section2 {
- 
+
     background-color: #8c8181;
     min-width: 320px;
     text-align: center;
     height: fit-content;
- 
+
 
     &__menu {
         padding: 20px 0;
-       background-image: url("../images/background-menu.jpg");
+        background-image: url("../images/background-menu.jpg");
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         justify-items: center;
+
         @include tablet {
             gap: 25px;
             padding: 40px 0;
         }
+
         @include desktop {
             margin-top: 50px;
             padding: 60px 0;
             grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
         }
 
-            &__item {
-                padding-top: 20px;
-                text-align: center;
-                display: flex;
-                flex-direction: row;
-                color: white;
-                padding: 10px;
-                height: 180px;
-                align-items: center;
-                @include tablet {
-                    height: 250px;
-                    width: 350px;
-                }
-                @include desktop {
-                    height: 250px;
-                   width: auto;
-                }
+        &__item {
+            padding-top: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            color: white;
+            padding: 10px;
+            height: 180px;
+            align-items: center;
 
-                &__image {
-                     width: 100px;
-                    height: 80px;
-           
-                
+            @include tablet {
+                height: 250px;
+                width: 350px;
+            }
+
+            @include desktop {
+                height: 250px;
+                width: auto;
+            }
+
+            &__image {
+                width: 100px;
+                height: 80px;
+
+
+                @include desktop {
+                    height: 150px;
+                    width: 200px;
+                    position: relative;
+                    left: 2%;
+                }
+            }
+
+            &__div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+                padding: 0 10px;
+
+                &__title {
+                    font-size: 1.1rem;
+
                     @include desktop {
-                        height: 150px;
-                        width: 200px;
-                        position: relative;
-                        left: 2%;
+                        font-size: 2rem;
                     }
                 }
 
-                    &__div {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        gap: 15px;
-                        padding: 0 10px;
+                &__price {
+                    font-size: 1rem;
 
-                        &__title {
-                            font-size: 1.1rem;
+                    @include tablet {
+                        font-size: 1.3rem;
+                    }
 
-                            @include desktop {
-                                font-size: 2rem;
-                            }
-                        }
+                    @include desktop {
+                        font-size: 2rem;
+                    }
+                }
 
-                        &__price {
-                            font-size: 1rem;
+                &__description {
+                    font-size: 0.7rem;
 
-                            @include tablet {
-                                font-size: 1.3rem;
-                            }
+                    @include tablet {
+                        font-size: 0.9rem;
+                    }
 
-                            @include desktop {
-                                font-size: 2rem;
-                            }
-                        }
-
-                        &__description {
-                            font-size: 0.7rem;
-
-                            @include tablet {
-                                font-size: 0.9rem;
-                            }
-
-                            @include desktop {
-                                font-size: 1rem;
-                            }
-                        }
+                    @include desktop {
+                        font-size: 1rem;
                     }
                 }
             }
         }
+    }
+}
 
-        .section2_title{
-            width: 300px;
-            height: 200px;
-        }
-    
+.section2_title {
+    width: 300px;
+    height: 180px;
+}

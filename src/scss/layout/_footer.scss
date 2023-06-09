@@ -4,14 +4,14 @@
     padding-top: 50px;
     text-align: center;
     @include hideHrOnTablet;
-    
-        @include tablet {
-            padding-top: 80px;
-        }
-    
-        @include desktop {
-            padding-top: 50px;
-        }
+
+    @include tablet {
+        padding-top: 80px;
+    }
+
+    @include desktop {
+        padding-top: 50px;
+    }
 
     & a {
         text-decoration: none;
@@ -32,8 +32,8 @@
         border: 1px solid rgb(245, 241, 241);
     }
 
-     &__nav {
-        color: $color-white;
+    &__nav {
+        color: white;
         display: flex;
         flex-direction: column;
         gap: 20px;
