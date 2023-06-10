@@ -19,12 +19,12 @@ El proyecto de Papachos se basa en el desarrollo desde 0 de una página web que 
 
 ## El proceso de desarrollo del proyecto se llevó a cabo de la siguiente manera:
 
-- Estructura del proyecto: Se creó una estructura básica del proyecto que incluía los archivos HTML, scss y JavaScript necesarios como las herramientas elegidas para arrancar el proyecto.
-- Desarrollo de los elementos básicos: Se comenzó a desarrollar el proyecto de manera gradual, enfocándose en una sección a la vez. Primero implemente las funcionalidades y elementos de cada seccion como el menu o estructura de sección.
-- Detalles de diseño: Una vez que que la pagina ya estaba operativa funcionaba el menu y tenia lo basico de informacion pero sin mucho estilo comence con los detalles, imagenes, buscar colores y rellenar alguna seccion que faltase.
-- Detalles responsive: teniendo todos los elementos que conformarian la pagina me dedique a alienar el grid y hacer las media queries de tablet y desktop ya que primordialmente elegi el mobile first.
-- Detalles finales y eleccion de animaciones: pulir detalles que faltan y elegir la animación correcta, por ejemplo elegi descartar un slider por que no hace la pagina tan eficiente y penaliza descarga, por lo que elegi ot5ra anmjiacion y darle preferencia a la accesibilidad y rendimiento que a la animacion en si. 
-- Pruebas finales: finalmente comparti la pagina a diferentes dispositivos para ver como funcionaba en diferentes dispositivos y navegadores para garantizar un correcto funcionamiento y una buena experiencia de usuario. 
+- Estructura del proyecto: Se creó una estructura básica del proyecto que incluía los archivos HTML, SCSS y JavaScript necesarios, así como las herramientas elegidas para arrancar el proyecto.
+- Desarrollo de los elementos básicos: Se comenzó a desarrollar el proyecto de manera gradual, enfocándose en una sección a la vez. Primero se implementaron las funcionalidades y elementos de cada sección, como el menú o la estructura de sección.
+- Detalles de diseño: Una vez que la página ya estaba operativa, funcionaba el menú y tenía la información básica, se comenzó a trabajar en los detalles de diseño, como la incorporación de imágenes, la búsqueda de colores y el rellenado de secciones faltantes.
+- Detalles responsive: Teniendo todos los elementos que conformarían la página, se dedicó tiempo a alinear el grid y crear las media queries para tablet y escritorio, considerando el enfoque de mobile first.
+- Detalles finales y elección de animaciones: Se pulieron los detalles que faltaban y se eligió la animación adecuada. Por ejemplo, se descartó un slider que afectaba la eficiencia y la velocidad de carga de la página, optando por otra animación que priorizara la accesibilidad y el rendimiento.
+- Pruebas finales: Finalmente, se compartió la página en diferentes dispositivos y navegadores para verificar su funcionamiento correcto y asegurar una buena experiencia de usuario.
 
 
 # Herramientas utilizadas:
