@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/main.css" />
-  <link rel="icon" href="./assets/images/logo.png" /> <!-- Favicon -->
+  <link rel="icon" href="./assets/images/logo.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 
@@ -23,11 +23,11 @@
           <nav class="header__menu__nav js-nav">
 
               <ul class="header__menu__nav__ul">
-                  <li class="header__menu__nav__ul__li"> <a href="#header">Inicio </a></li>
-                  <li class="header__menu__nav__ul__li"> <a href="#about">Quienes Somos </a></li>
-                  <li class="header__menu__nav__ul__li"> <a href="#menu">Las Hamburguesas</a></li>
-                  <li class="header__menu__nav__ul__li"> <a href="#footer">Contáctanos</a></li>
-                  <li class="header__menu__nav__ul__li__close">X</li>
+                  <li class="header__menu__nav__ul__li"> <a href="#header" title="Inicio">Inicio </a></li>
+                  <li class="header__menu__nav__ul__li"> <a href="#about" title="Quienes Somos">Quienes Somos </a></li>
+                  <li class="header__menu__nav__ul__li"> <a href="#menu" title="Las Hamburguesas">Las Hamburguesas</a></li>
+                  <li class="header__menu__nav__ul__li"> <a href="#footer" title="Contactanos">Contáctanos</a></li>
+                  <li class="header__menu__nav__ul__li header__menu__nav__ul__li__close"><a title="Cerrar" href="#">X</a></li>
               </ul>
 
           </nav>
@@ -46,21 +46,13 @@
             destino imperdible en la ciudad. Con una misión clara en mente, nos esforzamos por ofrecer a nuestros clientes
             las mejores hamburguesas, cuidadosamente elaboradas con ingredientes frescos y de la más alta calidad. </p>
 
-        <section class="section1__container ">
 
-            <div class="section1__container__slider js-slider">
-                <img class="section1__container__slider__img js-img" src="./assets/images/slider1.png">
-                <img class="section1__container__slider__img js-img" src="./assets/images/slider2.png">
-                <img class="section1__container__slider__img js-img" src="./assets/images/slider3.jpg">
-                <img class="section1__container__slider__img js-img" src="./assets/images/slider1.png">
-                <img class="section1__container__slider__img js-img" src="./assets/images/slider1.png">
-                <img class="section1__container__slider__img js-img" src="./assets/images/slider1.png">
+            <div class="section1__container">
+                <img title="imagen del local antiguo de Papachos" class="section1__container__img" src="./assets/images/slider2.png">
             </div>
-
-        </section>
     </section>
     <section class="section2" id="menu">
-        <img class="section2_title" src="./assets/images/menu2.png">
+       <h1 class="section2__title">menu</h1>
         <main class="section2__menu">
             <div class="section2__menu__item">
                 <div class="section2__menu__item__div">
@@ -147,17 +139,17 @@
 
       <nav class="footer__nav">
           <ul class="footer__nav__pages">
-              <a title="redirect to Home" href="#header">
+              <a title="Inicio" href="#header">
                   <li>Inicio</li>
               </a>
-              <a title="redirect to Home" href="#about">
+              <a title="Quienes somos" href="#about">
                   <li>Quines Somos</li>
               </a>
-              <a title="redirect to Home" href="#menu">
+              <a title="Las Hamburguesas" href="#menu">
                   <li>Las Hamburguesas</li>
               </a>
-              <a title="redirect to Home" href="#footer">
-                  <li>Contacto</li>
+              <a title="Contactanos" href="#footer">
+                  <li>Contactanos</li>
               </a>
           </ul>
 
