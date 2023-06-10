@@ -106,21 +106,6 @@
                     &:hover {
                         box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
                     }
-
-                    &__close {
-                        padding-top: 10px;
-                        font-weight: bold;
-                        font-size: 2rem;
-                        color: white;
-
-                        @include tablet {
-                            font-size: 3rem;
-                        }
-
-                        @include desktop {
-                            display: none;
-                        }
-                    }
                 }
             }
         }
