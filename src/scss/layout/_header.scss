@@ -6,7 +6,7 @@
     background-position: 20%;
     position: relative;
     font-family: $font-general;
-    
+
     &__menu {
         display: flex;
         justify-content: space-between;
@@ -16,6 +16,7 @@
         position: fixed;
         width: 100%;
         z-index: 999;
+
         @include desktop {
             display: flex;
             flex-direction: row;
@@ -26,8 +27,9 @@
             width: 35px;
             height: 40px;
             cursor: pointer;
-            @include desktop{
-                     display: none;
+
+            @include desktop {
+                display: none;
             }
         }
 
@@ -82,7 +84,7 @@
                 }
 
                 &__li {
-                  
+
                     font-weight: bold;
                     font-size: 1.8rem;
 
@@ -94,54 +96,57 @@
                         font-size: 1.5rem;
                     }
 
-                & a {
-                    color: white;
-                    text-decoration: none;
-                    list-style: none;
-                }
-
-            
-                &:hover {
-                    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
-                }
-
-                &__close {
-                    padding-top: 10px;
-                    font-weight: bold;
-                    font-size: 2rem;
-                    color: white;
-                    @include tablet {
-                        font-size: 3rem;
+                    & a {
+                        color: white;
+                        text-decoration: none;
+                        list-style: none;
                     }
-                    @include desktop {
-                        display: none;
+
+
+                    &:hover {
+                        box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+                    }
+
+                    &__close {
+                        padding-top: 10px;
+                        font-weight: bold;
+                        font-size: 2rem;
+                        color: white;
+
+                        @include tablet {
+                            font-size: 3rem;
+                        }
+
+                        @include desktop {
+                            display: none;
+                        }
                     }
                 }
-            }
             }
         }
     }
 
     &__title {
         position: absolute;
-        bottom: 50px;
+        bottom: 30%;
         margin: 0 auto;
         color: white;
         font-size: 1.5rem;
         font-weight: bold;
         padding-left: 10px;
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 4s steps(40) infinite;
-  animation-delay: 30s;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 4s steps(40) infinite;
+        animation-delay: 30s;
 
         @include tablet {
             font-size: 2.5rem;
+            bottom: 20%;
         }
 
         @include desktop {
             font-size: 3.5rem;
-          
+
         }
     }
 }
@@ -152,10 +157,11 @@
 }
 
 @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
