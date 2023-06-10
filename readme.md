@@ -4,6 +4,8 @@
 El proyecto de Papachos se basa en el desarrollo desde 0 de una página web que esta hecha para un restaurante ficticio que tiene las mejores hamburguesas de Valencia. El objetivo principal fue desarrollar un proyecto web desde cero con ciertos requerimientos. El diseño está inspirado en dos restaurantes uno Peruano y uno de Nueva York, combinando estilos de ambas para crear una apariencia única. La página web es responsive, adaptándose a diferentes tamaños de pantalla, y cuenta con un menú dinámico que utiliza JavaScript para mostrar y ocultar sus opciones.
 
 
+<img src='https://github.com/francescabentin/burguer-website/blob/main/src/images/imagen-readme.png'> {width:300px}
+
 ## Requerimientos y calidad básica:
 - Encabezado con el logotipo y menú de navegación
 - Sección de presentación con imagen y texto
