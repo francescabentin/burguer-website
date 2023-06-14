@@ -1,52 +1,50 @@
 
-# Proyecto de Papachos
+# Papachos Project
 
-El proyecto de Papachos se basa en el desarrollo desde 0 de una página web que esta hecha para un restaurante ficticio que tiene las mejores hamburguesas de Valencia. El objetivo principal fue desarrollar un proyecto web desde cero con ciertos requerimientos. El diseño está inspirado en dos restaurantes uno Peruano y uno de Nueva York, combinando estilos de ambas para crear una apariencia única. La página web es responsive, adaptándose a diferentes tamaños de pantalla, y cuenta con un menú dinámico que utiliza JavaScript para mostrar y ocultar sus opciones.
+The Papachos project is based on the development from scratch of a website created for a fictional restaurant that offers the best hamburgers in Valencia. The main objective was to develop a web project from scratch with specific requirements. The design is inspired by a Peruvian restaurant and a New York restaurant, combining styles from both to create a unique appearance. The website is responsive, adapting to different screen sizes, and features a dynamic menu that uses JavaScript to show and hide its options.
 
 
 <img src='https://github.com/francescabentin/burguer-website/blob/main/src/images/imagen-readme.png'>
 
-## Requerimientos y calidad básica:
-- Encabezado con el logotipo y menú de navegación
-- Sección de presentación con imagen y texto
-- Sección de menú con una lista de hamburguesas y sus precios (mínimo 4, máximo 6)
-- Pie de página con enlaces a redes sociales
-- La página web debe ser completamente responsive y adaptarse a diferentes tamaños de pantalla
-- Utilizar Flexbox o CSS Grid para el diseño
-- Utilizar al menos una animación o transición con CSS
-- El css debe escribirse en BEM
-- El menú de navegación debe ser funcional (apertura y cierre)
+## Requirements and basic quality:
+- Header with logo and navigation menu
+- Presentation section with image and text
+- Menu section with a list of hamburgers and their prices (minimum 4, maximum 6)
+- Footer with links to social media
+- The website must be fully responsive and adapt to different screen sizes
+- Use Flexbox or CSS Grid for the layout
+- Use at least one animation or transition with CSS
+- CSS should be written in BEM
+- The navigation menu should be functional (open and close)
 
-## El proceso de desarrollo del proyecto se llevó a cabo de la siguiente manera:
+## The development process of the project was carried out as follows:
 
-- Estructura del proyecto: Se creó una estructura básica del proyecto que incluía los archivos HTML, SCSS y JavaScript necesarios, así como las herramientas elegidas para arrancar el proyecto.
-- Desarrollo de los elementos básicos: Se comenzó a desarrollar el proyecto de manera gradual, enfocándose en una sección a la vez. Primero se implementaron las funcionalidades y elementos de cada sección, como el menú o la estructura de sección.
-- Detalles de diseño: Una vez que la página ya estaba operativa, funcionaba el menú y tenía la información básica, se comenzó a trabajar en los detalles de diseño, como la incorporación de imágenes, la búsqueda de colores y el rellenado de secciones faltantes.
-- Detalles responsive: Teniendo todos los elementos que conformarían la página, se dedicó tiempo a alinear el grid y crear las media queries para tablet y escritorio, considerando el enfoque de mobile first.
-- Detalles finales y elección de animaciones: Se pulieron los detalles que faltaban y se eligió la animación adecuada. Por ejemplo, se descartó un slider que afectaba la eficiencia y la velocidad de carga de la página, optando por otra animación que priorizara la accesibilidad y el rendimiento.
-- Pruebas finales: Finalmente, se compartió la página en diferentes dispositivos y navegadores para verificar su funcionamiento correcto y asegurar una buena experiencia de usuario.
-
-
-# Herramientas utilizadas:
-- HTML y CSS
-- SASS como preprocesador de CSS
-- NPM como gestor de paquetes y dependencias
-- Gulp, herramienta de automatización de tareas (WSK)
-
-# Explicación del starter kit:
-Es una plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas, incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local que automatiza tareas.
-
-En el Kit hay 3 tipos de ficheros y carpetas:
-
-- Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... (no se modifican)
-- La carpeta src/: son los ficheros de nuestra página web, como HTML, CSS, JS...(en caso se quiere editar)
-- Las carpetas public/ y docs/, que son generadas automáticamente cuando se arranca el proyecto (usando npm run docs). El Kit lee los ficheros que hay dentro de src/, los procesa y los genera dentro de public/ y docs/.
-
-# Pasos para arrancar el proyecto:
-1. Se instalan las dependencias ejecutando el comando -> **npm install** (hay que tener **node JS** previamente instalado)
-2. Ejecutas el comando -> **npm start**
+- Project structure: A basic project structure was created, including the necessary HTML, SCSS, and JavaScript files, as well as the chosen tools to start the project.
+- Development of basic elements: The project was gradually developed, focusing on one section at a time. Functionality and elements of each section were implemented first, such as the menu or section structure.
+- Design details: Once the page was functional, the menu was working, and it had the basic information, work began on design details, such as incorporating images, selecting colors, and filling in missing sections.
+- Responsive details: With all the elements that would make up the page in place, time was dedicated to aligning the grid and creating media queries for tablet and desktop, considering a mobile-first approach.
+- Final details and animation selection: The remaining details were polished, and the appropriate animation was chosen. For example, a slider that affected page efficiency and loading speed was discarded in favor of another animation that prioritized accessibility and performance.
+- Final testing: Finally, the page was shared on different devices and browsers to verify its correct functionality and ensure a good user experience.
 
 
+# Tools used:
+- HTML and CSS
+- SASS as a CSS preprocessor
+- NPM as a package and dependency manager
+- Gulp, a task automation tool (WSK)
+
+# Explanation of the starter kit:
+It is a project template with preinstalled and preconfigured functionalities, including an HTML template engine, the SASS preprocessor, and a local server that automates tasks.
+
+The kit consists of 3 types of files and folders:
+
+- Files located at the root of the repository, such as gulpfile.js, package.json... (not to be modified)
+- The src/ folder: these are the files of our web page, such as HTML, CSS, JS... (can be edited)
+- The public/ and docs/ folders, which are automatically generated when the project is started (using npm run docs). The Kit reads the files inside src/, processes them, and generates them inside public/ and docs/.
+
+# Steps to start the project:
+1. Install the dependencies by running the command -> **npm install** (Node.js must be installed beforehand)
+2. Run the command -> **npm start**
 
 
 
