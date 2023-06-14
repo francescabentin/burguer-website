@@ -1,0 +1,16 @@
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
